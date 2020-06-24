@@ -1,0 +1,49 @@
+
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: "Nunito", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66D9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$customGray: #D3D3D3;
+$vezBlue: #4169E1;
+
+%flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+%flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+%flex-vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+%flex-horizontal-align {
+  display: flex;
+  justify-content: center;
+}
+
+%customisation {
+  position: absolute;
+  color: #fff;
+  font-size: 2vw !important;
+  top: 20px;
+}
